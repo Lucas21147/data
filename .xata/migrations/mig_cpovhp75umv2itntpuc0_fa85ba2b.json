@@ -1,0 +1,102 @@
+{
+  "id": "mig_cpovhp75umv2itntpuc0",
+  "parentID": "mig_cpova4k9j1rfpv77cgg0",
+  "checksum": "1:fa85ba2bb53a988ffc4e9b7fe6395d73744d4c78a52d87e100fa044797c88fa3",
+  "operations": [
+    {
+      "addTable": {
+        "table": "traducciones"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "TITULO",
+          "type": "string"
+        },
+        "table": "traducciones"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "PAIS",
+          "type": "string"
+        },
+        "table": "traducciones"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "VIDEOS",
+          "type": "string"
+        },
+        "table": "traducciones"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "IDIOMA",
+          "type": "string"
+        },
+        "table": "traducciones"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "CONTRATADOS",
+          "type": "int"
+        },
+        "table": "traducciones"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "ORIGINALES",
+          "type": "string"
+        },
+        "table": "traducciones"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "TRADUCIDOS",
+          "type": "string"
+        },
+        "table": "traducciones"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "TRADUCCION",
+          "type": "string"
+        },
+        "table": "traducciones"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "FICHAS",
+          "type": "string"
+        },
+        "table": "traducciones"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "COMENTARIOS",
+          "type": "string"
+        },
+        "table": "traducciones"
+      }
+    }
+  ]
+}

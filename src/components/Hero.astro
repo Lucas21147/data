@@ -1,0 +1,48 @@
+---
+import { Image } from "astro:assets";
+
+// image imports
+import courseIcon from "@/assets/astro-course-icon.png";
+
+// components
+import Heading from "@/components/Heading.astro";
+import SignupForm from "@/components/SignupForm";
+import Note from "./Note.astro";
+---
+
+<section
+  class="grid place-items-center content-center gap-4 sm:gap-6 text-center px-4"
+  aria-label="Submit website for review form"
+>
+  <Image
+    src={courseIcon}
+    alt="Astro icon for course"
+    class="fade-in shift-up w-28 sm:w-40"
+  />
+
+  <Heading tagType="h1" size="lg" classes="fade-in shift-up">
+    Astro Code Review
+  </Heading>
+  <p class="fade-in shift-up max-w-prose text-balance">
+    I want to learn from the best Astro devs and offer helpful suggestions where
+    I can. Submit your Astro website for review! Only accepting published sites
+    with public repos.
+  </p>
+  <div class="fade-in shift-up">
+    <SignupForm client:load />
+  </div>
+  <Note class="fade-in shift-up max-w-prose text-balance mb-10 grid gap-2">
+    <ol class="list-decimal text-left ml-6">
+      <li>Submit your name, site, and public repo.</li>
+      <li>I’ll pick a few sites to review.</li>
+      <li>
+        I’ll post a video <a
+          href="https://youtube.com/@codinginpublic"
+          class="underline focus:outline-transparent focus-visible:ring-4 ring-astro-accent-dark-pink ring-offset-2 ring-offset-astro-900 rounded"
+          >to my channel</a
+        >.
+      </li>
+    </ol>
+    <p class="ml-1">Submitting does not guarantee a code review.</p>
+  </Note>
+</section>

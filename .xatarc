@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Lucas-9omets.us-west-2.xata.sh/db/lata",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
